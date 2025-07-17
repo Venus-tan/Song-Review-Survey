@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<head>
+    <h1>SONGS REVIEW SURVEY</h1>
+</head>
+<body>
+    <p>This is a survey asking for your opinion on two songs.</p>
+    <p>Click on the link and listen to the songs. Answer the following questions afterwards.</p>
+    <a href="https://youtu.be/IpFX2vq8HKw" target="_blank">Song #1</a>
+    <a href="https://youtu.be/aMyO6GNkfpo" target="_blank">Song #2</a>
+    <br/>
+    <br/>
+    <div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"/>
+            <input type="submit" value="Submit"/>
+            <br/>
+            <br/>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"/>
+            <input type="submit" value="Submit"/>
+
+            <br/>
+            <br/>
+
+            <div>
+                <p>Question 1</p>
+                <label for="listen">How often do you listen to music?</label>
+                <select id="listen" name="listen">
+                    <option value="blank">  </option>
+                    <option value="fewest">0-3 times a week</option>
+                    <option value="middle">4-6 times a week</option>
+                    <option value="alot">6-10 times a week</option>
+                    <option value="most">More than 10 times a week</option>
+                </select>
+            </div>
+            <br/>
+
+            <div>
+                <p>Question 2</p>
+                <p>Score Song #1</p>
+                <input type="radio" id="0" name="score" value="0">
+                <label for="0">0</label>
+
+                <input type="radio" id="1" name="score" value="1">
+                <label for="1">1</label>
+
+                <input type="radio" id="2" name="score" value="2">
+                <label for="2">2</label>
+
+                <input type="radio" id="3" name="score" value="3">
+                <label for="3">3</label>
+
+                <input type="radio" id="4" name="score" value="4">
+                <label for="4">4</label>
+
+                <input type="radio" id="5" name="score" value="5">
+                <label for="5">5</label>
+            </div>
+
+            <br/>
+
+            <div>
+                <p>Question 3</p>
+                <p>Score Song #2</p>
+                <input type="radio" id="0" name="score" value="0">
+                <label for="0">0</label>
+
+                <input type="radio" id="1" name="score" value="1">
+                <label for="1">1</label>
+
+                <input type="radio" id="2" name="score" value="2">
+                <label for="2">2</label>
+
+                <input type="radio" id="3" name="score" value="3">
+                <label for="3">3</label>
+
+                <input type="radio" id="4" name="score" value="4">
+                <label for="4">4</label>
+
+                <input type="radio" id="5" name="score" value="5">
+                <label for="5">5</label>
+            </div>
+
+            <br/>
+            <br/>
+
+            <div>
+                <input type="submit" value="Done">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
