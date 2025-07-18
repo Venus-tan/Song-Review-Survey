@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .card-container{
+        display:flex;
+        flex-wrap:wrap
+    }
+
+    .card{
+        position:relative;
+        display:flex;
+        box-sizing: border-box;
+        background-color: rgb(255, 226, 230);
+        margin: 10px 10px;
+        text-align: center;
+        border:solid rgb(196, 196, 196) 2px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 50px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .text {
+        display:inline-block;
+        position:relative;
+        background-color:rgb(255, 226, 230);
+        z-index:10;
+        padding-left: 30px;
+    }
+
+    .img {
+        padding-top:15px;
+        padding-left:10px;
+    }
+
+    .hot {
+        background-color:orange;
+        position: absolute;
+        display: grid;
+        justify-items: start;
+        align-items: start;
+        padding: 5px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        top: -25px;
+        left: -13px;
+        color: rgb(179, 6, 6)
+        
+    }
+</style>
+
+<body>
+
+    <div class="card-container">
+        <div class="card">
+
+            <div class="img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" height="60" width="85">
+            </div>
+            
+            <div class="text">
+                <h3>Youtube Channel 1</h3>
+                <p>This is a video of channel 1</p>
+            </div>
+
+            <p class="hot"><strong>HOT</strong></p>
+        </div>
+
+
+        <div class="card">
+            <div class="img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" height="60" width="85">
+            </div>            
+            
+            <div class="text">
+                <h3>Youtube Channel 2</h3>
+                <p>This is a video of channel 2</p>
+            </div>
+            
+            <p class="hot"><strong>HOT</strong></p>
+        </div>
+
+
+        <div class="card">
+            <div class="img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" height="60" width="85">
+            </div>
+
+            <div class="text">
+                <h3>Youtube Channel 3</h3>
+                <p>This is a video of channel 3</p>
+            </div>
+            <p class="hot"><strong>HOT</strong></p>
+        </div>
+    
+    </div>
+        
+
+</body>
+</html>
+
+
+
+
+
